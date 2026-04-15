@@ -6,7 +6,7 @@ The project focuses on building a clean and scalable full-stack architecture usi
 
 ---
 
-## 🚀 Features
+##  Features
 
 * Full CRUD system (Create, Read, Update, Delete)
 * Content organized into:
@@ -22,7 +22,7 @@ The project focuses on building a clean and scalable full-stack architecture usi
 
 ---
 
-## 🧠 Tech Stack
+##  Tech Stack
 
 * **Frontend:** Next.js (App Router), React, TypeScript
 * **Backend:** tRPC
@@ -32,7 +32,7 @@ The project focuses on building a clean and scalable full-stack architecture usi
 
 ---
 
-## 📸 Preview
+##  Preview
 
 > <img width="1914" height="841" alt="image" src="https://github.com/user-attachments/assets/594e13cd-c497-4778-b43e-2175b9e2ce56" />
 > <img width="1911" height="826" alt="image" src="https://github.com/user-attachments/assets/fb2821c3-0cb6-47a6-adbb-8a0f7179bc20" />
@@ -41,7 +41,7 @@ The project focuses on building a clean and scalable full-stack architecture usi
 
 ---
 
-## ⚙️ Getting Started
+##  Getting Started
 
 ### 1. Clone the repository
 
@@ -92,7 +92,7 @@ http://localhost:3000
 
 ---
 
-## 🧪 Example Content
+##  Example Content
 
 You can test the system by creating entries like:
 
@@ -104,7 +104,7 @@ You can test the system by creating entries like:
 ---
 
 
-## 🔄 Roadmap
+##  Roadmap
 
 * [ ] Add authentication (admin access control)
 * [ ] Migrate database to PostgreSQL
@@ -115,7 +115,7 @@ You can test the system by creating entries like:
 
 ---
 
-## ⚠️ Notes
+##  Notes
 
 * This project currently does not include authentication
 * Admin actions (create/update/delete) are not protected yet
@@ -123,7 +123,7 @@ You can test the system by creating entries like:
 
 ---
 
-## 🎯 Purpose
+##  Purpose
 
 This project was built to practice full-stack development concepts including:
 
