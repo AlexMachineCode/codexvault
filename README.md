@@ -1,29 +1,139 @@
-# Create T3 App
+# CodexVault
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+CodexVault is a content management system designed to organize structured RPG data such as abilities, skills, items, and backgrounds.
 
-## What's next? How do I make an app with this?
+The project focuses on building a clean and scalable full-stack architecture using modern tools like Next.js, tRPC, and Prisma.
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+---
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+## 🚀 Features
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Drizzle](https://orm.drizzle.team)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+* Full CRUD system (Create, Read, Update, Delete)
+* Content organized into:
 
-## Learn More
+  * Backgrounds
+  * Skills
+  * Abilities
+  * Items
+* Inline editing (update directly in the UI)
+* Dynamic filtering by title
+* Real-time updates using tRPC
+* Responsive and minimal UI
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+---
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+## 🧠 Tech Stack
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+* **Frontend:** Next.js (App Router), React, TypeScript
+* **Backend:** tRPC
+* **Database:** Prisma ORM (SQLite for development)
+* **Styling:** Tailwind CSS
+* **Package Manager:** pnpm
 
-## How do I deploy this?
+---
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+## 📸 Preview
+
+> <img width="1914" height="841" alt="image" src="https://github.com/user-attachments/assets/594e13cd-c497-4778-b43e-2175b9e2ce56" />
+> <img width="1911" height="826" alt="image" src="https://github.com/user-attachments/assets/fb2821c3-0cb6-47a6-adbb-8a0f7179bc20" />
+
+
+
+---
+
+## ⚙️ Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/SEU-USUARIO/codexvault.git
+cd codexvault
+```
+
+---
+
+### 2. Install dependencies
+
+```bash
+pnpm install
+```
+
+---
+
+### 3. Setup environment variables
+
+Create a `.env` file in the root:
+
+```env
+DATABASE_URL="file:./dev.db"
+```
+
+---
+
+### 4. Setup database
+
+```bash
+pnpm prisma db push
+```
+
+---
+
+### 5. Run the development server
+
+```bash
+pnpm dev
+```
+
+Open:
+
+```
+http://localhost:3000
+```
+
+---
+
+## 🧪 Example Content
+
+You can test the system by creating entries like:
+
+* **Ability:** Fireball
+* **Skill:** Stealth
+* **Item:** Sword
+* **Background:** Soldier
+
+---
+
+
+## 🔄 Roadmap
+
+* [ ] Add authentication (admin access control)
+* [ ] Migrate database to PostgreSQL
+* [ ] Deploy application (AWS / Vercel)
+* [ ] Improve UI/UX (animations, feedback states)
+* [ ] Add advanced filtering (by category, type, etc.)
+* [ ] Add RPG-specific fields (mana cost, rarity, etc.)
+
+---
+
+## ⚠️ Notes
+
+* This project currently does not include authentication
+* Admin actions (create/update/delete) are not protected yet
+* SQLite is used for development only
+
+---
+
+## 🎯 Purpose
+
+This project was built to practice full-stack development concepts including:
+
+* API design with tRPC
+* State management in React
+* Database modeling with Prisma
+* Clean UI structuring with Tailwind
+
+---
+
+## 👨‍💻 Author
+
+**Alex Batista**
